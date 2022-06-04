@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ПолеЧудес.MainPage">
+    <ContentPage.Content >
+
+        <StackLayout>
+            <Image x:Name="img_strelka" Source="strelka.png" HeightRequest="50"/>
+            <Image x:Name="image" Source="baraban1.png"/>
+            <Button  Text="Крутить" Command="{Binding RotateCommand}" Clicked="Button_Clicked"/>
+        </StackLayout>
+        
+    </ContentPage.Content>
+</ContentPage>
